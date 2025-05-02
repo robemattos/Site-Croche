@@ -1,0 +1,34 @@
+body {
+    max-width: 100%;
+    background-color: #e1bee4;
+}
+
+h1 {
+    color: blue;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-shadow: 1px 2px #888888;
+}
+
+@media (min-width: 401px) {
+.trabalhos__elementos:hover {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+    transform: scale(1.5);
+}
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.trabalhos__lista {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
